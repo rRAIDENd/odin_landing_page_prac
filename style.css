@@ -24,6 +24,11 @@ ul li a {
   color: #F9FAF8;
 }
 
+/*default style for all image*/
+img{
+  border-radius: 10px;
+}
+
 /*Header*/
 .header{
   display: flex;
@@ -88,11 +93,100 @@ ul li a {
   border-radius: 5px;
   color: white;
   background-color: #2882F6;
+  padding: 5px 20px;
 }
 
+/*info*/
+.info-title{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.item-text{
+  font-size: 20px;
+}
+
+* .item-image{
+  width: 300px;
+  height: 200px;
+}
+
+
+.item-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 200px;
+  padding: 100px 0;
+}
+
+.item{
+  max-width: 200px;
+}
+
+/*quote*/
+.quote-container{
+  background-color: lightgrey;
+  padding: 20px 0;
+}
+
+blockquote{
+  max-width: 600px;
+  font-size: 40px
+}
+.quote-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author{
+  font-size: 20px;
+}
+
+/*Call to action*/
+.sign-up-container{
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 20px 200px;
+  align-items: end;
+  gap: 50px;
+  background-color: #3882F6;
+  border-radius: 10px;
+}
+
+.cta-main-text, .cta-subtext{
+  color: white;
+}
+
+.cta-main-text{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.cta-button button{
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: #2882F6;
+  padding: 5px 20px;
+}
 
 /*Footer*/
 .footer{
     text-align: center;
     padding: 20px 0;
+    background-color: #1F2937;
+    color: white;
 }
